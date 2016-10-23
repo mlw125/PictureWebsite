@@ -1,0 +1,78 @@
+body {
+    background-color: lightgreen;
+	background-image: url("Baxter-small.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#first {
+	text-align: center;
+	font-family: 'Ezcar', sans-serif;
+	padding: 5px;
+	color: lightgreen;
+	//-webkit-text-stroke-width: 1px;
+	//-webkit-text-stroke-color: green;
+}
+
+button {
+	font-size: 24px;
+	width: 20%;
+	height: 20%;
+	display: inline;
+	margin: auto;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	background-color: white;
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.main {
+	background-color: white;
+	width: 80%;
+	text-align: center;
+	box-shadow: 10px 10px 5px #888888;
+	margin: auto;
+	border-radius: 12px;
+}
+
+.image-stuff {
+	//display: inline-block;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+}
+
+#pic {
+    border-radius: 8px;
+    display: none;
+    margin: auto;
+	border: 15px solid #3e2b14;
+}
+
+.image-buttons {
+}
+
+#prevButton, #randButton, #nextButton {
+	font-size: 16px;
+	width: 20%;
+	height: 20%;
+	display: inline;
+	margin: auto;
+	border-radius: 12px;
+}
+
+.buttons {
+}
+
+/*
+* {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+*/
